@@ -18,7 +18,20 @@ class AntibiogramModel:
     def add_data(self, antibiotic, diameter):
         try:
             diameter = float(diameter)
-            self.data = pd.concat([self.data, pd.DataFrame([{'Antibiotic': antibiotic, 'Inhibition Zone Diameter (mm)': diameter}])], ignore_index=True)
+            self.data = pd.concat(
+                [
+                    self.data, 
+                    pd.DataFrame(
+                        [
+                            {
+                                'Antibiotic': antibiotic, 
+                                'Inhibition Zone Diameter (mm)': diameter
+                            }
+                        ]
+                    )
+                ], 
+                ignore_index=True
+            )
             return True
         except ValueError:
             return False
