@@ -1,0 +1,267 @@
+Bacteria,Antibiotic,Reaction
+E.coli,Penicillin,I
+E.coli,Cefazolin,S
+E.coli,Erythromycin,S
+E.coli,Tetracycline,S
+E.coli,Gentamicin,R
+E.coli,Amoxicillin,I
+E.coli,Ciprofloxacin,R
+E.coli,Vancomycin,S
+E.coli,Ampicillin,S
+E.coli,Oxacillin,S
+E.coli,Clindamycin,S
+E.coli,Azithromycin,I
+E.coli,Chloramphenicol,S
+E.coli,Cefoxitin,S
+E.coli,Imipenem,I
+E.coli,Meropenem,I
+E.coli,Piperacillin,S
+E.coli,Piperacillin-Tazobactam,I
+E.coli,Ceftriaxone,R
+E.coli,Cefotaxime,S
+E.coli,Ceftazidime,R
+E.coli,Cefepime,I
+E.coli,Linezolid,S
+E.coli,Daptomycin,S
+E.coli,Rifampin,R
+E.coli,Fosfomycin,S
+E.coli,Nitrofurantoin,S
+E.coli,Colistin,S
+E.coli,Polymyxin B,R
+E.coli,Levofloxacin,I
+E.coli,Moxifloxacin,R
+E.coli,Trimethoprim-Sulfamethoxazole,R
+E.coli,Nalidixic Acid,I
+E.coli,Minocycline,R
+E.coli,Tigecycline,S
+E.coli,Cefixime,I
+E.coli,Cefdinir,R
+E.coli,Cefpodoxime,I
+Staphylococcus aureus,Penicillin,R
+Staphylococcus aureus,Cefazolin,I
+Staphylococcus aureus,Erythromycin,R
+Staphylococcus aureus,Tetracycline,S
+Staphylococcus aureus,Gentamicin,S
+Staphylococcus aureus,Amoxicillin,S
+Staphylococcus aureus,Ciprofloxacin,S
+Staphylococcus aureus,Vancomycin,S
+Staphylococcus aureus,Ampicillin,S
+Staphylococcus aureus,Oxacillin,S
+Staphylococcus aureus,Clindamycin,I
+Staphylococcus aureus,Azithromycin,S
+Staphylococcus aureus,Chloramphenicol,S
+Staphylococcus aureus,Cefoxitin,S
+Staphylococcus aureus,Imipenem,S
+Staphylococcus aureus,Meropenem,R
+Staphylococcus aureus,Piperacillin,I
+Staphylococcus aureus,Piperacillin-Tazobactam,I
+Staphylococcus aureus,Ceftriaxone,S
+Staphylococcus aureus,Cefotaxime,R
+Staphylococcus aureus,Ceftazidime,S
+Staphylococcus aureus,Cefepime,S
+Staphylococcus aureus,Linezolid,R
+Staphylococcus aureus,Daptomycin,I
+Staphylococcus aureus,Rifampin,I
+Staphylococcus aureus,Fosfomycin,I
+Staphylococcus aureus,Nitrofurantoin,R
+Staphylococcus aureus,Colistin,R
+Staphylococcus aureus,Polymyxin B,S
+Staphylococcus aureus,Levofloxacin,S
+Staphylococcus aureus,Moxifloxacin,S
+Staphylococcus aureus,Trimethoprim-Sulfamethoxazole,S
+Staphylococcus aureus,Nalidixic Acid,S
+Staphylococcus aureus,Minocycline,R
+Staphylococcus aureus,Tigecycline,R
+Staphylococcus aureus,Cefixime,S
+Staphylococcus aureus,Cefdinir,I
+Staphylococcus aureus,Cefpodoxime,S
+Pseudomonas aeruginosa,Penicillin,R
+Pseudomonas aeruginosa,Cefazolin,S
+Pseudomonas aeruginosa,Erythromycin,S
+Pseudomonas aeruginosa,Tetracycline,S
+Pseudomonas aeruginosa,Gentamicin,I
+Pseudomonas aeruginosa,Amoxicillin,S
+Pseudomonas aeruginosa,Ciprofloxacin,I
+Pseudomonas aeruginosa,Vancomycin,R
+Pseudomonas aeruginosa,Ampicillin,S
+Pseudomonas aeruginosa,Oxacillin,S
+Pseudomonas aeruginosa,Clindamycin,R
+Pseudomonas aeruginosa,Azithromycin,I
+Pseudomonas aeruginosa,Chloramphenicol,S
+Pseudomonas aeruginosa,Cefoxitin,S
+Pseudomonas aeruginosa,Imipenem,S
+Pseudomonas aeruginosa,Meropenem,I
+Pseudomonas aeruginosa,Piperacillin,R
+Pseudomonas aeruginosa,Piperacillin-Tazobactam,S
+Pseudomonas aeruginosa,Ceftriaxone,S
+Pseudomonas aeruginosa,Cefotaxime,S
+Pseudomonas aeruginosa,Ceftazidime,R
+Pseudomonas aeruginosa,Cefepime,I
+Pseudomonas aeruginosa,Linezolid,R
+Pseudomonas aeruginosa,Daptomycin,R
+Pseudomonas aeruginosa,Rifampin,S
+Pseudomonas aeruginosa,Fosfomycin,R
+Pseudomonas aeruginosa,Nitrofurantoin,I
+Pseudomonas aeruginosa,Colistin,I
+Pseudomonas aeruginosa,Polymyxin B,S
+Pseudomonas aeruginosa,Levofloxacin,I
+Pseudomonas aeruginosa,Moxifloxacin,S
+Pseudomonas aeruginosa,Trimethoprim-Sulfamethoxazole,S
+Pseudomonas aeruginosa,Nalidixic Acid,S
+Pseudomonas aeruginosa,Minocycline,R
+Pseudomonas aeruginosa,Tigecycline,R
+Pseudomonas aeruginosa,Cefixime,S
+Pseudomonas aeruginosa,Cefdinir,I
+Pseudomonas aeruginosa,Cefpodoxime,S
+Klebsiella pneumoniae,Penicillin,R
+Klebsiella pneumoniae,Cefazolin,R
+Klebsiella pneumoniae,Erythromycin,S
+Klebsiella pneumoniae,Tetracycline,I
+Klebsiella pneumoniae,Gentamicin,I
+Klebsiella pneumoniae,Amoxicillin,S
+Klebsiella pneumoniae,Ciprofloxacin,R
+Klebsiella pneumoniae,Vancomycin,I
+Klebsiella pneumoniae,Ampicillin,R
+Klebsiella pneumoniae,Oxacillin,I
+Klebsiella pneumoniae,Clindamycin,S
+Klebsiella pneumoniae,Azithromycin,S
+Klebsiella pneumoniae,Chloramphenicol,S
+Klebsiella pneumoniae,Cefoxitin,R
+Klebsiella pneumoniae,Imipenem,R
+Klebsiella pneumoniae,Meropenem,R
+Klebsiella pneumoniae,Piperacillin,S
+Klebsiella pneumoniae,Piperacillin-Tazobactam,S
+Klebsiella pneumoniae,Ceftriaxone,R
+Klebsiella pneumoniae,Cefotaxime,R
+Klebsiella pneumoniae,Ceftazidime,S
+Klebsiella pneumoniae,Cefepime,S
+Klebsiella pneumoniae,Linezolid,S
+Klebsiella pneumoniae,Daptomycin,R
+Klebsiella pneumoniae,Rifampin,R
+Klebsiella pneumoniae,Fosfomycin,S
+Klebsiella pneumoniae,Nitrofurantoin,S
+Klebsiella pneumoniae,Colistin,I
+Klebsiella pneumoniae,Polymyxin B,S
+Klebsiella pneumoniae,Levofloxacin,R
+Klebsiella pneumoniae,Moxifloxacin,S
+Klebsiella pneumoniae,Trimethoprim-Sulfamethoxazole,S
+Klebsiella pneumoniae,Nalidixic Acid,I
+Klebsiella pneumoniae,Minocycline,R
+Klebsiella pneumoniae,Tigecycline,S
+Klebsiella pneumoniae,Cefixime,S
+Klebsiella pneumoniae,Cefdinir,R
+Klebsiella pneumoniae,Cefpodoxime,I
+Enterococcus faecalis,Penicillin,S
+Enterococcus faecalis,Cefazolin,I
+Enterococcus faecalis,Erythromycin,S
+Enterococcus faecalis,Tetracycline,S
+Enterococcus faecalis,Gentamicin,S
+Enterococcus faecalis,Amoxicillin,I
+Enterococcus faecalis,Ciprofloxacin,S
+Enterococcus faecalis,Vancomycin,S
+Enterococcus faecalis,Ampicillin,S
+Enterococcus faecalis,Oxacillin,I
+Enterococcus faecalis,Clindamycin,S
+Enterococcus faecalis,Azithromycin,R
+Enterococcus faecalis,Chloramphenicol,R
+Enterococcus faecalis,Cefoxitin,S
+Enterococcus faecalis,Imipenem,S
+Enterococcus faecalis,Meropenem,I
+Enterococcus faecalis,Piperacillin,S
+Enterococcus faecalis,Piperacillin-Tazobactam,S
+Enterococcus faecalis,Ceftriaxone,R
+Enterococcus faecalis,Cefotaxime,I
+Enterococcus faecalis,Ceftazidime,S
+Enterococcus faecalis,Cefepime,R
+Enterococcus faecalis,Linezolid,R
+Enterococcus faecalis,Daptomycin,S
+Enterococcus faecalis,Rifampin,S
+Enterococcus faecalis,Fosfomycin,S
+Enterococcus faecalis,Nitrofurantoin,S
+Enterococcus faecalis,Colistin,S
+Enterococcus faecalis,Polymyxin B,R
+Enterococcus faecalis,Levofloxacin,I
+Enterococcus faecalis,Moxifloxacin,R
+Enterococcus faecalis,Trimethoprim-Sulfamethoxazole,S
+Enterococcus faecalis,Nalidixic Acid,S
+Enterococcus faecalis,Minocycline,S
+Enterococcus faecalis,Tigecycline,R
+Enterococcus faecalis,Cefixime,S
+Enterococcus faecalis,Cefdinir,S
+Enterococcus faecalis,Cefpodoxime,S
+Klebsiella pneumoniae,Penicillin,R
+Klebsiella pneumoniae,Cefazolin,S
+Klebsiella pneumoniae,Erythromycin,R
+Klebsiella pneumoniae,Tetracycline,S
+Klebsiella pneumoniae,Gentamicin,S
+Klebsiella pneumoniae,Amoxicillin,R
+Klebsiella pneumoniae,Ciprofloxacin,S
+Klebsiella pneumoniae,Vancomycin,R
+Klebsiella pneumoniae,Ampicillin,R
+Klebsiella pneumoniae,Oxacillin,R
+Klebsiella pneumoniae,Clindamycin,R
+Klebsiella pneumoniae,Azithromycin,R
+Klebsiella pneumoniae,Chloramphenicol,S
+Klebsiella pneumoniae,Cefoxitin,S
+Klebsiella pneumoniae,Imipenem,S
+Klebsiella pneumoniae,Meropenem,S
+Klebsiella pneumoniae,Piperacillin,S
+Klebsiella pneumoniae,Piperacillin-Tazobactam,S
+Klebsiella pneumoniae,Ceftriaxone,S
+Klebsiella pneumoniae,Cefotaxime,S
+Klebsiella pneumoniae,Ceftazidime,S
+Klebsiella pneumoniae,Cefepime,S
+Klebsiella pneumoniae,Linezolid,R
+Klebsiella pneumoniae,Daptomycin,R
+Klebsiella pneumoniae,Rifampin,R
+Klebsiella pneumoniae,Fosfomycin,S
+Klebsiella pneumoniae,Nitrofurantoin,I
+Klebsiella pneumoniae,Colistin,S
+Klebsiella pneumoniae,Polymyxin B,S
+Klebsiella pneumoniae,Levofloxacin,S
+Klebsiella pneumoniae,Moxifloxacin,S
+Klebsiella pneumoniae,Trimethoprim-Sulfamethoxazole,S
+Klebsiella pneumoniae,Nalidixic Acid,R
+Klebsiella pneumoniae,Minocycline,S
+Klebsiella pneumoniae,Tigecycline,S
+Klebsiella pneumoniae,Cefixime,S
+Klebsiella pneumoniae,Cefdinir,S
+Klebsiella pneumoniae,Cefpodoxime,S
+Enterococcus faecalis,Penicillin,S
+Enterococcus faecalis,Cefazolin,R
+Enterococcus faecalis,Erythromycin,I
+Enterococcus faecalis,Tetracycline,S
+Enterococcus faecalis,Gentamicin,I
+Enterococcus faecalis,Amoxicillin,S
+Enterococcus faecalis,Ciprofloxacin,R
+Enterococcus faecalis,Vancomycin,S
+Enterococcus faecalis,Ampicillin,S
+Enterococcus faecalis,Oxacillin,R
+Enterococcus faecalis,Clindamycin,R
+Enterococcus faecalis,Azithromycin,R
+Enterococcus faecalis,Chloramphenicol,S
+Enterococcus faecalis,Cefoxitin,R
+Enterococcus faecalis,Imipenem,R
+Enterococcus faecalis,Meropenem,R
+Enterococcus faecalis,Piperacillin,R
+Enterococcus faecalis,Piperacillin-Tazobactam,R
+Enterococcus faecalis,Ceftriaxone,R
+Enterococcus faecalis,Cefotaxime,R
+Enterococcus faecalis,Ceftazidime,R
+Enterococcus faecalis,Cefepime,R
+Enterococcus faecalis,Linezolid,S
+Enterococcus faecalis,Daptomycin,S
+Enterococcus faecalis,Rifampin,S
+Enterococcus faecalis,Fosfomycin,S
+Enterococcus faecalis,Nitrofurantoin,S
+Enterococcus faecalis,Colistin,R
+Enterococcus faecalis,Polymyxin B,R
+Enterococcus faecalis,Levofloxacin,R
+Enterococcus faecalis,Moxifloxacin,R
+Enterococcus faecalis,Trimethoprim-Sulfamethoxazole,R
+Enterococcus faecalis,Nalidixic Acid,R
+Enterococcus faecalis,Minocycline,S
+Enterococcus faecalis,Tigecycline,S
+Enterococcus faecalis,Cefixime,R
+Enterococcus faecalis,Cefdinir,R
+Enterococcus faecalis,Cefpodoxime,R

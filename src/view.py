@@ -23,15 +23,17 @@ class AntibiogramView(ctk.CTk):
 
         self.add_button = ctk.CTkButton(self, text="Add Data", command=self.add_click)
 
+        self.clear_button = ctk.CTkButton(self, text="Clear Data", command=self.clear_data)
+
         self.antibiotic_label.pack(pady=5)
         self.antibiotic_menu.pack(pady=5)
 
         self.diameter_entry.pack(pady=10)
         self.add_button.pack(pady=5)
-
+        
         self.result_box = ctk.CTkTextbox(self, height=150)
         self.result_box.pack(pady=10, fill='both', expand=False)
-
+        
         self.stats_button = ctk.CTkButton(self, text="Show Statistics", command=self.controller.show_statistics)
         self.stats_button.pack(pady=5)
 
@@ -48,6 +50,11 @@ class AntibiogramView(ctk.CTk):
         self.compare_entry1.pack(side="left", padx=5)
         self.compare_entry2.pack(side="left", padx=5)
         self.compare_button.pack(side="left", padx=5)
+
+        self.bacteria_button = ctk.CTkButton(self, text="Which Bacteria", command=self.show_bacteria_info)
+        self.bacteria_button.pack(pady=5)
+
+        self.clear_button.pack(pady=30)
 
     def add_click(self):
         antibiotic = self.antibiotic_var.get()
@@ -66,3 +73,15 @@ class AntibiogramView(ctk.CTk):
             tkinter.messagebox.showerror("Error", "Please enter two antibiotic names.")
             return
         self.controller.show_comparison(ab1, ab2)
+
+    def show_bacteria_info(self):
+        bacteria_info = self.controller.model.evaluate_bacteria()
+        if bacteria_info:
+            tkinter.messagebox.showinfo("Bacteria Information", bacteria_info)
+        else:
+            tkinter.messagebox.showinfo("Bacteria Information", "No data available.")
+
+    def clear_data(self):
+        self.controller.model.clear_data()
+        self.result_box.delete("0.0", "end")
+        self.diameter_entry.delete(0, tk.END)
