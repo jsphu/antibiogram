@@ -11,7 +11,7 @@ class AntibiogramModel:
         self.resistance_thresholds = self.load_resistance_thresholds()
     
     # Get absolute path to resource, implemented for windows-like systems.
-    def resource_path(relative_path):
+    def resource_path(self, relative_path):
         """ Get absolute path to resource (works for dev and PyInstaller) """
         try:
             base_path = sys._MEIPASS  # PyInstaller sets this in the temp folder
@@ -43,7 +43,7 @@ class AntibiogramModel:
             return "No Threshold Data"
 
     def load_resistance_thresholds(self):
-        with open(self.resource_path("data/antibiotic.csv"), "r") as file:
+        with open(self.resource_path("data/antibiotics.csv"), "r") as file:
             return pd.read_csv(file, index_col='Antibiotic').to_dict(orient='index')
 
     def get_results(self):
