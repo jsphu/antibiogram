@@ -1,4 +1,6 @@
 # Model.py
+import sys
+import os
 import pandas as pd
 import numpy as np
 from scipy import stats
@@ -8,6 +10,16 @@ class AntibiogramModel:
         self.data = pd.DataFrame(columns=['Antibiotic', 'Inhibition Zone Diameter (mm)'])
         self.resistance_thresholds = self.load_resistance_thresholds()
     
+    # Get absolute path to resource, implemented for windows-like systems.
+    def resource_path(relative_path):
+        """ Get absolute path to resource (works for dev and PyInstaller) """
+        try:
+            base_path = sys._MEIPASS  # PyInstaller sets this in the temp folder
+        except AttributeError:
+            base_path = os.path.abspath(".")
+
+        return os.path.join(base_path, relative_path)
+
     def add_data(self, antibiotic, diameter):
         try:
             diameter = float(diameter)
@@ -31,8 +43,7 @@ class AntibiogramModel:
             return "No Threshold Data"
 
     def load_resistance_thresholds(self):
-        with open("data/antibiotics.csv", "r") as file:
-            # Read the CSV; the keys will be the column names from the header.
+        with open(self.resource_path("data/antibiotic.csv"), "r") as file:
             return pd.read_csv(file, index_col='Antibiotic').to_dict(orient='index')
 
     def get_results(self):
@@ -79,7 +90,7 @@ class AntibiogramModel:
         return t_stat, p_val
     
     def load_bacteria_antibiotic_resistance(self):
-        return pd.read_csv("data/bacterias.csv")
+        return pd.read_csv(self.resource_path("data/bacterias.csv"))
 
     def evaluate_bacteria(self):
         # Use the results computed (which include the interpretation) from the user's data.
